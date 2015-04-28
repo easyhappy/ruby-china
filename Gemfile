@@ -107,6 +107,10 @@ group :development, :test do
   gem 'capybara', '~> 2.3.0'
   gem 'api_taster', '0.6.0'
   gem 'letter_opener'
+  
+  gem 'pry-rails',  '0.3.2'
+  gem 'pry-nav',    '0.2.4'
+  gem 'pry-stack_explorer', '0.4.9.1'
 
   # 用于组合小图片
   gem 'sprite-factory', '1.4.1', require: false
@@ -116,5 +120,5 @@ group :development, :test do
 end
 
 group :production do
-  gem 'newrelic_rpm'
+  #gem 'newrelic_rpm'
 end
